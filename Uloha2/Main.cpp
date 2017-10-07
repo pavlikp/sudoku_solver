@@ -2,8 +2,8 @@
 #include "sudoku.h"
 
 int main() {
-	//Sudoku s("534678912672195348198342567859761423426853791713924856961537284287419635345286179");
-	Sudoku s;
+	Sudoku s("075090006023080040800003001500702000040806020000901003900400007060070580700010390");
+	/*Sudoku s;
 	s.SetNumber(1, 1, 5);
 	s.SetNumber(1, 2, 3);
 	s.SetNumber(1, 5, 7);
@@ -33,7 +33,7 @@ int main() {
 	s.SetNumber(8, 9, 5);
 	s.SetNumber(9, 5, 8);
 	s.SetNumber(9, 8, 7);
-	s.SetNumber(9, 9, 9);
+	s.SetNumber(9, 9, 9);*/
 	std::cout << s << std::endl;
 	s.Solve();
 	std::cout << s << std::endl;
